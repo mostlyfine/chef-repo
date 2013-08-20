@@ -1,1 +1,1 @@
-{"run_list":[]}
+{  "run_list":[    "yum::epel",    "recipe[nodejs]",    "recipe[mongodb::10gen_repo]",    "recipe[mongodb]",    "recipe[redis]"  ]}
