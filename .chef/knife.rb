@@ -7,3 +7,5 @@ validation_key           '/etc/chef/validation.pem'
 chef_server_url          'http://host078.in.1101.com:4000'
 syntax_check_cache_path  '/Users/sawayanagi/works/vagrant/chef-repo/sample/.chef/syntax_check_cache'
 cookbook_path            ['./cookbooks', './site-cookbooks']
+role_path                './roles'
+data_bag_path            './data_bags'
