@@ -1,1 +1,17 @@
-{  "run_list":[    "yum::epel",    "recipe[nodejs]",    "recipe[mongodb::10gen_repo]",    "recipe[mongodb]",    "recipe[redis]"  ]}
+{
+  "npm": {
+      "version": "1.3.5"
+  },
+  "run_list":[
+    "yum::epel",
+    "yum::remi",
+    "yum::repoforge",
+    "build-essential",
+    "recipe[nodejs]",
+    "recipe[npm]",
+    "recipe[mongodb::10gen_repo]",
+    "recipe[mongodb]",
+    "recipe[redisio::install]",
+    "recipe[tools]"
+  ]
+}
