@@ -13,6 +13,7 @@
     "recipe[mongodb]",
     "recipe[redisio::install]",
     "recipe[tools]",
+    "recipe[users]",
     "recipe[iptables]"
   ]
 }
