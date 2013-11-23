@@ -9,3 +9,4 @@ syntax_check_cache_path  '.chef/syntax_check_cache'
 cookbook_path            ['./cookbooks', './site-cookbooks']
 role_path                './roles'
 data_bag_path            './data_bags'
+node_path                './nodes'
